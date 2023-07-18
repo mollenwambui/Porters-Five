@@ -1,0 +1,238 @@
+.everything {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    height: 10vh;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+  
+  }
+  .logo{
+    margin-left: -70%;
+    margin-top: -1%;
+    width: 8%;
+  }
+  
+  .navbar-content {
+    margin-left: 75%; 
+
+  }
+  
+  .navbar ul {
+    margin-right: 0; 
+  }
+  
+
+  
+  .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-left: 10px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .menu li a.active {
+    font-weight: bold;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px; 
+  }
+  
+  .navbar ul li {
+    margin-left: 10px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .navbar ul li a.active {
+    font-weight: bold;
+    position: relative;
+  }
+  
+  .navbar ul li a.active::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 50%;
+    height: 2px;
+    background-color: #ff8000; /* Halfway orange */
+  }
+  
+  /* Rest of your CSS styles */
+  
+  ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-left: 10px;
+    margin-top: 4%;
+    padding: 5%;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  li:not(:last-child) {
+    margin-right: 10px; /* Add space between words */
+  }
+  
+  li:last-child a {
+    margin-left: 10px; /* Add space after "Introduction" */
+  }
+  
+  .content {
+    margin-top: 80px; 
+  }
+  
+  @media (min-width: 480px) and (max-width: 1024px) {
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #fff;
+      height: 10vh;
+      padding: 0 20px;
+      display: flex;
+      align-items: center;
+    
+    }
+    
+    .navbar-content {
+      margin-left: 20%; /* Adjust the value as needed */
+    }
+    
+  
+
+  }
+  
+  
+  
+  @media (min-width: 300px) and (max-width: 500px) {
+    .navbar {
+      position: fixed;
+      width: 100%;
+      background-color: #fff;
+      height: 10vh;
+      padding: 0 10px;
+      display: flex;
+      align-items: center;
+      font-size: 12px;
+    
+    }
+    
+    .navbar-content {
+      margin-left: 9%;
+    }
+    .logo{
+      margin-left: -10%;
+      margin-top: -1%;
+      width: 15%;
+      height: 3vh;
+    }
+ 
+  
+  
+  }
+  @media (min-width: 1025px) and (max-width: 1100px) { 
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #fff;
+      height: 10vh;
+      padding: 0 20px;
+      display: flex;
+      align-items: center;
+    
+    }
+    
+    .navbar-content {
+      margin-left: 45%; /* Adjust the value as needed */
+    }
+    
+  
+ 
+  }
+  
+  @media (min-width: 1100px) and (max-width: 2000px) { 
+    .navbar {
+      position: fixed;
+      display: flex;
+      left: 0;
+      width: 100%;
+      background-color: #fff;
+      height: 10vh;
+      padding: 0 20px;
+      display: flex;
+      align-items: center;
+    
+    }
+    
+    .navbar-content {
+      margin-left: 70%; 
+ 
+    }
+    
+  
+    
+  }
+  @media (min-width: 1025px) and (max-width: 1100px) { 
+    .navbar {
+      position: fixed;
+     margin-top: -10%;
+      left: 0;
+      width: 100%;
+      background-color: #fff;
+      height: 10vh;
+      padding: 0 20px;
+      display: flex;
+      align-items: center;
+    
+    }
+    
+    .navbar-content {
+      margin-left: 60%; /* Adjust the value as needed */
+    }
+    
+  
+  }
+  
+  
+  

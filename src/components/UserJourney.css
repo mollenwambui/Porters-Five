@@ -1,0 +1,441 @@
+.user-journey {
+    width: 50%; /* Adjust the width as needed */
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    background-color: white;
+    margin-left: 70%;
+    margin-top: -30%;
+    border-radius: 10px; /* Add border radius value */
+    box-shadow: 0px 0px 10px #f7c5c5; /* Add orange shadow */
+    height: 70vh;
+  }
+  
+  .progress-bar {
+    position: relative;
+    height: 200px; /* Adjust the height as needed */
+  }
+  
+  .progress-line {
+    position: absolute;
+    left: 4px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: gray;
+    height: 45vh;
+  }
+  .progress-dots {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 70vh;
+  }
+  
+  .progress-dot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    transition: background-color 0.3s ease;
+    margin-bottom: 95px;
+  }
+  
+  .progress-dot:last-child {
+    margin-bottom: 0; /* Remove spacing for the last dot */
+  }
+  
+  .progress-dot.active {
+    background-color: black;
+  }
+  .progress-labels {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    left: 18px;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+  }
+  
+  .progress-label {
+    font-size: 18px;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .progress-label.active {
+    color: #000;
+  }
+  
+  .check-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .check-icon.active {
+    background-color: #000;
+  }
+  .checkboxes-container {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; /* Adjust the justify-content value */
+    height: 79%;
+  
+  }
+  
+  
+  .checkbox {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-bottom: 1px; /* Adjust the margin as needed */
+  }
+  
+  /* Style for the active checkbox */
+  .checkbox.active {
+    background-color: orange;
+  }
+  .checkbox-icon {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    visibility: hidden;
+    transition: visibility 0.3s ease;
+  }
+  
+  .checkbox.active .checkbox-icon {
+    visibility: visible;
+  }
+  
+  .force7 {
+    margin-top: 40%;
+    margin-left: 10%;
+  }
+  
+  .force8 {
+   margin-top: 35%;
+   margin-left: 10%;
+
+  }
+  
+  .force9 {
+    margin-top: 43%;
+    margin-left: 10%;
+  }
+  
+  .force10 {
+   margin-top: 40%;
+   margin-left: 10%;
+  }
+  
+  .force11 {
+   margin-top: 36%;
+   margin-left: 10%;
+
+  }
+ 
+  
+
+  .result{
+    margin-left: 10%;
+    height: 4vh;
+    border-radius: 8px;
+    background-color: orange;
+    color: white;
+    border:  none;
+    width: 78%;
+    margin-top: 72%;
+    font-size: 13px;
+    font-weight: bolder;
+    animation: flash 1s infinite;
+  }
+  @keyframes flash {
+    0% {
+      background-color: #F8731B;
+    }
+    50% {
+      background-color: #f3b816;
+    }
+    100% {
+      background-color: #f1a008;
+    }
+  }
+  
+  .progress{
+    margin-left:35%;
+   
+  }
+  
+  @media (min-width: 480px) and (max-width: 1024px) {
+    .user-journey {
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px;
+      position: relative;
+      background-color: white;
+    
+      height: auto;
+      box-shadow: none; /* Remove the box shadow */
+      border-radius: 0; /* Remove the border radius */
+    }
+  
+    .progress-bar {
+      height: auto; /* Adjust the height as needed */
+      margin-bottom: 20px; /* Add margin between progress bar and other elements */
+    }
+  
+    .progress-line {
+      position: static;
+      height: 2px;
+      width: 100%;
+    
+  
+    }
+  
+    .progress-dots {
+      flex-direction: row;
+      position: static;
+      left: auto;
+      margin-top: -1%;
+    
+    }
+  
+    .progress-labels {
+      flex-direction: row;
+      position: static;
+      left: auto;
+      top: auto;
+      bottom: auto;
+      margin-left: 10px; /* Add margin between progress labels and progress dots */
+    }
+  
+    .checkboxes-container {
+      position: static;
+      top: auto;
+      right: auto;
+      margin-top: 10px; /* Add margin between checkboxes and other elements */
+      height: auto;
+      flex-direction: row;
+      justify-content: space-around; /* Adjust the justify-content value */
+    }
+    
+    .checkbox {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background-color: #ccc;
+    }
+    
+    .checkbox + .checkbox {
+      margin-left: 25%; /* Add margin between checkboxes except for the first one */
+    }
+    
+    
+    .stren {
+      position: static;
+      top: 18%;
+      left: 20px;
+      font-size: 15px;
+  margin-left: -3%;  }
+    
+    .weak {
+      position: static;
+      font-size: 15px;
+      margin-bottom: 10px; /* Add spacing */
+    }
+    
+    .oppo {
+      position: static;
+      font-size: 15px;
+      margin-bottom: 10px; /* Add spacing */
+    }
+    
+    .threa {
+      position: static;
+      font-size: 15px;
+      margin-bottom: 10px; /* Add spacing */
+    }
+    
+  
+    .result {
+      display: none; /* Hide the results button */
+  
+    }
+  
+    .progress {
+      margin-left: 0;
+      text-align: center; /* Center align the progress text */
+    }
+  }
+  
+  @media (min-width: 300px) and (max-width: 500px) {
+   .user-journey {
+display: none;
+  }
+ 
+  }
+  @media (min-width: 1100px) and (max-width: 3000px) { 
+    .user-journey {
+      width: 20%; /* Adjust the width as needed */
+      margin: 0 auto;
+      padding: 20px;
+      position: relative;
+      background-color: white;
+      margin-left: 70%;
+      margin-top: -40%;
+      border-radius: 10px; /* Add border radius value */
+      box-shadow: 0px 0px 10px #f7c5c5; /* Add orange shadow */
+      height: 60vh;
+    }
+  
+ 
+  
+  .weak {
+    position: absolute;
+    margin-top: 50%;
+    left: 20px;
+    font-size: 17px;
+  }
+  
+  .oppo {
+    position: absolute;
+    margin-top: 60%;
+    left: 20px;
+    font-size: 17px;
+  }
+  
+  .threa{
+    position: absolute;
+    margin-top: 55%;
+    left: 20px;
+    font-size: 17px;
+  }
+    
+  }
+  @media (min-width: 1280px) and (max-width: 1440px) { 
+  
+  
+    .stren {
+      position: absolute;
+     top: 20%;
+      left: 20px;
+      font-size: 17px;
+    }
+    
+    .weak {
+      position: absolute;
+      top: 37.5%;
+      left: 20px;
+      font-size: 17px;
+    }
+    
+    .oppo {
+      position: absolute;
+      top: 55%;
+      left: 20px;
+      font-size: 17px;
+    }
+    
+    .threa{
+      position: absolute;
+      top: 71%;
+      left: 20px;
+      font-size: 17px;
+    }
+    .checkboxes-container {
+      position: absolute;
+      top: 15%;
+      right: 10%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around; /* Adjust the justify-content value */
+      height: 64%;
+    
+    }
+    
+  }
+  @media (min-width: 1100px) and (max-width: 1700px) { 
+     
+  .progress-dot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    transition: background-color 0.3s ease;
+    margin-bottom: 78px;
+  }
+  .force7 {
+    margin-top: 43%;
+    margin-left: 10%;
+  }
+  
+  .force8 {
+   margin-top: 39%;
+   margin-left: 10%;
+
+  }
+  
+  .force9 {
+    margin-top: 45%;
+    margin-left: 10%;
+  }
+  
+  .force10 {
+   margin-top: 41%;
+   margin-left: 10%;
+  }
+  
+  .force11 {
+   margin-top: 38%;
+   margin-left: 10%;
+
+  }
+  .progress-line {
+    position: absolute;
+    left: 4px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: gray;
+    height: 44vh;
+  }
+  .user-journey {
+   margin-top: -43%;
+  }
+  }
+  
+  @media (min-width: 480px) and (max-width: 1024px) {
+.user-journey{
+  display: none;
+}
+  }
+  

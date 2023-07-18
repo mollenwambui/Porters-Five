@@ -1,0 +1,973 @@
+.slide-container1{
+    margin-top: 9%;
+    margin-left:10%;
+    width: 48%;
+    background-color: #FDF7F3;
+    height: 74vh;
+    border-radius: 20px;
+    overflow-y: auto; /* Enable vertical scrolling when necessary */
+
+
+}
+.red-icon {
+    color: red;
+    /* Add any additional styles for the icon here */
+  }
+  
+.slide-container2{
+    margin-top: 9%;
+    margin-left:10%;
+    width: 48%;
+    background-color: #FDF7F3;
+    height: 74vh;
+    border-radius: 10px;
+    overflow-y: auto; /* Enable vertical scrolling when necessary */
+
+}
+.slide-container3{
+    margin-top: 9%;
+    margin-left:10%;
+    width: 48%;
+    background-color: #FDF7F3;
+    height: 74vh;
+    border-radius: 10px;
+    overflow-y: auto; /* Enable vertical scrolling when necessary */
+
+
+}
+.slide-container4{
+    margin-top: 9%;
+    margin-left:10%;
+    width: 48%;
+    background-color: #FDF7F3;
+    height: 74vh;
+    border-radius: 10px;
+    overflow-y: auto; /* Enable vertical scrolling when necessary */
+
+
+}
+.slide-container5{
+    margin-top: 9%;
+    margin-left:10%;
+    width: 48%;
+    background-color: #FDF7F3;
+    height: 74vh;
+    border-radius: 10px;
+    overflow-y: auto; /* Enable vertical scrolling when necessary */
+
+
+}
+.status-dropdown{
+    margin-left: 75%;
+    margin-top: -3%;
+}
+.status-dropdown5{
+    margin-left: 75%;
+    padding-top: -7%;
+    margin-bottom: -3%;
+}
+
+input{
+    height: 3vh;
+    border-radius: 10px;
+    border: none;
+    width: 65%;
+    margin-left: 5%;
+    padding-bottom: 3px;
+    padding-left: 3%;
+  
+}
+
+.force1{
+    border: 0px solid #E0E0E0;
+    background-color: #E0E0E0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: -1%;
+    padding-top: 5%;
+    color: black;
+    padding-left: 5%;
+    height: 4vh;
+}
+.input-container{
+    margin-bottom: 20px;
+
+}
+.icon-container {
+    display: flex;
+   
+  }
+  
+.add{
+    margin-left: 70%;
+    margin-top: 2%;
+    
+}
+
+  
+.minus{
+    margin-left: -68%;
+    margin-top: 2%;
+}
+.threats{
+    margin-left: 5%;
+    margin-top: 2%;
+}.error-message {
+    color: red;
+    font-size: 14px;
+   margin-left: 5%;
+  }
+  .force2{
+    border: 0px solid #E0E0E0;
+    background-color: #E0E0E0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: -1%;
+    padding-top: 5%;
+    color: black;
+    padding-left: 5%;
+    height: 4vh;
+}
+.power{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.force3{
+    border: 0px solid #E0E0E0;
+    background-color: #E0E0E0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: -1%;
+    padding-top: 5%;
+    color: black;
+    padding-left: 5%;
+    height: 4vh;
+}
+.force4{
+    border: 0px solid #E0E0E0;
+    background-color: #E0E0E0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: -1%;
+    padding-top: 5%;
+    color: black;
+    padding-left: 5%;
+    height: 4vh;
+}
+.force5{
+    border: 0px solid #E0E0E0;
+    background-color: #E0E0E0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: -1%;
+    padding-top: 5%;
+    color: black;
+    padding-left: 5%;
+    height: 4vh;
+}
+.rivalry{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+ .threat{
+    margin-left: 5%;
+    margin-top: 5%;
+
+ }
+
+ .next-button{
+    margin-left: 90%;
+    margin-top: -15%;
+    width: 8%;
+    height: 3vh;
+    border-radius: 5px;
+   background-color: #F8731B;
+   border: none;
+   color: white;
+ }
+
+ .previous-button{
+    margin-top: 6%;
+    width: 8%;
+    height: 3vh;
+    border-radius: 5px;
+   background-color: #F8731B;
+   border: none;
+   color: white;
+   margin-left: 5%;
+ }
+ .next-button1{
+    margin-left: 90%;
+    margin-top: 4%;
+    width: 8%;
+    height: 3vh;
+    border-radius: 5px;
+   background-color: #F8731B;
+   border: none;
+   color: white;
+ }
+ 
+  
+  .force-content-container{
+   margin-left: -13%;
+    text-align: center;
+    height: 5vh;
+  }
+  .force-button {
+    margin-right: 135px; /* Adjust the value as needed */
+  }
+  .force-buttons{
+    display: flex;
+    margin-right: 100px;
+    margin-top: 5%;
+    margin-left: 4%;
+  }
+  .force1-button{
+    background-color:#f8731b;
+    width: 20%;
+    height: 5vh;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 25%;
+    margin-top: 1%;
+
+  }
+
+  .force2-button{
+    background-color:gray;
+    width: 20%;
+    height: 5vh;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 25%;
+    margin-top: 1%;
+
+  }
+  .force3-button{
+    background-color:#f8731b;
+    width: 20%;
+    height: 5vh;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 25%;
+    margin-top: 1%;
+
+
+  }
+  .force4-button{
+    background-color:gray;
+    width: 20%;
+    height: 5vh;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 25%;
+    margin-top: 1%;
+
+
+
+  }
+  
+  .force5-button{
+    background-color:#f8731b;
+    width: 20%;
+    height: 5vh;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 25%;
+    margin-top: 1%;
+
+
+  }
+  
+  .positive{
+    color: green;
+   
+  }
+  .mini-card{
+    margin-left: 65%;
+    margin-top: -8%;
+  }
+  .positive {
+    color: green;
+  }
+  
+  .neutral {
+    color: grey;
+  }
+  
+  .negative {
+    color: red;
+  }
+  
+  
+  
+  .green-icon {
+    color: green;
+  }
+  
+  .grey-icon {
+    color: grey;
+  }
+  
+  .red-icon {
+    color: red;
+  }
+  .force-content-container{
+    margin-left: -27%;
+  }
+  @media (min-width: 300px) and (max-width: 500px) {
+    .slide-container1{
+        margin-top: 40%;
+        margin-left:10%;
+        width: 88%;
+        background-color: #FDF7F3;
+        height: 74vh;
+        border-radius: 20px;
+        overflow-y: auto; /* Enable vertical scrolling when necessary */
+
+    }
+    .red-icon {
+        color: red;
+        /* Add any additional styles for the icon here */
+      }
+
+.input{
+    height: 3vh;
+    border-radius: 10px;
+    border: none;
+    width: 49%;
+    margin-left: 2%;
+    padding-bottom: 3px;
+    padding-left: 3%;
+  
+}
+.status-dropdown{
+    margin-top: -10%;
+    margin-left: 57%;
+    padding-bottom: 20px;
+    width: 20%;
+  
+}
+
+      
+    .slide-container2{
+        margin-top: 40%;
+        margin-left:10%;
+        width: 88%;
+        background-color: #FDF7F3;
+        height: 74vh;
+        border-radius: 20px;
+        overflow-y: auto; /* Enable vertical scrolling when necessary */
+
+    }
+    .slide-container3{
+        margin-top: 40%;
+        margin-left:10%;
+        width: 88%;
+        background-color: #FDF7F3;
+        height: 74vh;
+        border-radius: 20px;
+        overflow-y: auto; /* Enable vertical scrolling when necessary */
+
+    
+    }
+    .slide-container4{
+        margin-top: 40%;
+        margin-left:10%;
+        width: 88%;
+        background-color: #FDF7F3;
+        height: 74vh;
+        border-radius: 20px;
+        overflow-y: auto; /* Enable vertical scrolling when necessary */
+
+    
+    }
+    .slide-container5{
+        margin-top: 40%;
+        margin-left:10%;
+        width: 88%;
+        background-color: #FDF7F3;
+        height: 74vh;
+        border-radius: 20px;
+        overflow-y: auto; /* Enable vertical scrolling when necessary */
+
+    
+    }
+    input{
+        height: 3vh;
+        border-radius: 10px;
+        border: none;
+        width: 90%;
+        margin-left: 5%;
+        padding-bottom: 3px;
+        padding-left: 3%;
+      
+    }
+    
+    .force1{
+        border: 0px solid #E0E0E0;
+        background-color: #E0E0E0;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        margin-top: -1%;
+        padding-top: 5%;
+        color: black;
+        padding-left: 2%;
+        height: 4vh;
+        font-weight: bolder;
+        font-size: 13.5px;
+
+    }
+    .input-container{
+        margin-bottom: 10px;
+    
+    }
+    .icon-container {
+        display: flex;
+       
+      }
+      
+    .add{
+        margin-left: 90%;
+        margin-top: 2%;
+        
+    }
+    .minus{
+        margin-left: -92%;
+        margin-top: 2%;
+    }
+    .threats{
+        margin-left: 5%;
+        margin-top: 9%;
+       
+    }.error-message {
+        color: red;
+        font-size: 14px;
+       margin-left: 5%;
+      }
+      .force2{
+        border: 0px solid #E0E0E0;
+        background-color: #E0E0E0;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        margin-top: -1%;
+        padding-top: 5%;
+        color: black;
+        padding-left: 2%;
+        height: 4vh;
+        font-weight: bolder;
+        font-size: 13.5px;
+    }
+    .power{
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .force3{
+        border: 0px solid #E0E0E0;
+        background-color: #E0E0E0;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        margin-top: -1%;
+        padding-top: 5%;
+        color: black;
+        padding-left: 2%;
+        height: 4vh;
+        font-size: 13.5px;
+
+    }
+    .force4{
+        border: 0px solid #E0E0E0;
+        background-color: #E0E0E0;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        margin-top: -1%;
+        padding-top: 5%;
+        color: black;
+        padding-left: 5%;
+        height: 4vh;
+        font-weight: bolder;
+        font-size: 13.5px;
+    }
+    .force5{
+        border: 0px solid #E0E0E0;
+        background-color: #E0E0E0;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        margin-top: -1%;
+        padding-top: 5%;
+        color: black;
+        padding-left: 5%;
+        height: 4vh;
+        font-weight: bolder;
+        font-size: 13.5px;
+    }
+    .rivalry{
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+     .threat{
+        margin-left: 5%;
+        margin-top: 5%;
+    
+     }
+     
+      
+      .next-button {
+        position: absolute;
+        
+        margin-left: 70%;        width: 15%;
+        height: 3vh;
+        border-radius: 5px;
+        background-color: #F8731B;
+        border: none;
+        color: white;
+        margin-top: 10%;
+      }
+      
+      .previous-button {
+        position: absolute;
+        margin-left: 6%; /* Adjust margin as needed */
+        width: 18%;
+        height: 3vh;
+        border-radius: 5px;
+        background-color: #F8731B;
+        border: none;
+        color: white;
+        margin-top: 10%;
+      }
+      
+     .next-button1{
+        margin-left: 85%;
+        margin-top: 10%;
+        width: 13%;
+        height: 3vh;
+        border-radius: 5px;
+       background-color: #F8731B;
+       border: none;
+       color: white;
+     }
+     
+      
+      .force-content-container{
+       margin-left: -13%;
+        text-align: center;
+        height: 5vh;
+      }
+      .force-button {
+        margin-right: 135px; /* Adjust the value as needed */
+      }
+      .force-buttons{
+        display: flex;
+        margin-right: 100px;
+        margin-top: 5%;
+        margin-left: 4%;
+      }
+      .force1-button{
+        background-color:#f8731b;
+        width: 50%;
+        height: 5vh;
+        border-radius: 10px;
+        border: none;
+        color: white;
+        font-weight: bold;
+        margin-left: 25%;
+        margin-top: 3%;
+    
+      }
+    
+      .force2-button{
+        background-color:gray;
+        width: 50%;
+        height: 5vh;
+        border-radius: 10px;
+        border: none;
+        color: white;
+        font-weight: bold;
+        margin-left: 25%;
+        margin-top: 1%;
+    
+      }
+      .force3-button{
+        background-color:#f8731b;
+        width: 50%;
+        height: 5vh;
+        border-radius: 10px;
+        border: none;
+        color: white;
+        font-weight: bold;
+        margin-left: 25%;
+        margin-top: 1%;
+    
+    
+      }
+      .force4-button{
+        background-color:gray;
+        width: 50%;
+        height: 5vh;
+        border-radius: 10px;
+        border: none;
+        color: white;
+        font-weight: bold;
+        margin-left: 25%;
+        margin-top: 1%;
+    
+    
+    
+      }
+      
+      .force5-button{
+        background-color:#f8731b;
+        width: 50%;
+        height: 5vh;
+        border-radius: 10px;
+        border: none;
+        color: white;
+        font-weight: bold;
+        margin-left: 25%;
+        margin-top: 1%;
+    
+    
+      }
+      
+      .positive{
+        color: green;
+       
+      }
+      .mini-card{
+        margin-left: 61%;
+        margin-top: -17%;
+      }
+      .positive {
+        color: green;
+      }
+      
+      .neutral {
+        color: grey;
+      }
+      
+      .negative {
+        color: red;
+      }
+      
+      
+      
+      .green-icon {
+        color: green;
+      }
+      
+      .grey-icon {
+        color: grey;
+      }
+      
+      .red-icon {
+        color: red;
+      }
+      .force-content-container{
+        margin-left: 5%;
+        width: 90%;
+      }
+  }
+  @media (min-width: 1100px) and (max-width: 1700px) { 
+    .slide-container1{
+      margin-top: 12%;
+      margin-left:10%;
+      width: 48%;
+      background-color: #FDF7F3;
+      height: 74vh;
+      border-radius: 20px;
+      overflow-y: auto; /* Enable vertical scrolling when necessary */
+
+  }
+  .red-icon {
+      color: red;
+      /* Add any additional styles for the icon here */
+    }
+    
+  .slide-container2{
+      margin-top: 12%;
+      margin-left:10%;
+      width: 48%;
+      background-color: #FDF7F3;
+      height: 74vh;
+      border-radius: 10px;
+      overflow-y: auto; /* Enable vertical scrolling when necessary */
+
+  }
+  .slide-container3{
+      margin-top: 12%;
+      margin-left:10%;
+      width: 48%;
+      background-color: #FDF7F3;
+      height: 74vh;
+      border-radius: 10px;
+      overflow-y: auto; /* Enable vertical scrolling when necessary */
+
+  
+  }
+  .slide-container4{
+      margin-top: 12%;
+      margin-left:10%;
+      width: 48%;
+      background-color: #FDF7F3;
+      height: 74vh;
+      border-radius: 10px;
+      overflow-y: auto; /* Enable vertical scrolling when necessary */
+
+  
+  }
+  .slide-container5{
+      margin-top: 12%;
+      margin-left:10%;
+      width: 48%;
+      background-color: #FDF7F3;
+      height: 74vh;
+      border-radius: 10px;
+      overflow-y: auto; /* Enable vertical scrolling when necessary */
+
+  
+  }
+  .status-dropdown{
+      margin-left: 75%;
+      margin-top: -2.5%;
+  }
+  .status-dropdown5{
+      margin-left: 75%;
+      padding-top: -7%;
+      margin-bottom: -3%;
+  }
+  .input-container{
+    margin-bottom: 10px;
+
+}
+  
+  }
+  @media (min-width: 1100px) and (max-width: 1700px) { 
+    .status-dropdown{
+      margin-left: 75%;
+      margin-top: -5%;
+  }
+
+ .previous-button{
+  margin-top: 6%;
+  width: 9%;
+  height: 3vh;
+  border-radius: 5px;
+ background-color: #F8731B;
+ border: none;
+ color: white;
+ margin-left: 5%;
+}
+.input-container{
+  margin-bottom: 10px;
+
+}
+  }
+  @media (min-width: 480px) and (max-width: 1024px) {
+    .slide-container1{
+      margin-top: 32%;
+      margin-left:10%;
+      width: 78%;
+      background-color: #FDF7F3;
+      height: 74vh;
+      border-radius: 20px;
+      overflow-y: auto; /* Enable vertical scrolling when necessary */
+
+  }
+  .red-icon {
+      color: red;
+      /* Add any additional styles for the icon here */
+    }
+    .input-container{
+      margin-bottom: 10px;
+    
+    }
+    
+  .slide-container2{
+    margin-top: 32%;
+      margin-left:10%;
+      width: 78%;
+      background-color: #FDF7F3;
+      height: 74vh;
+      border-radius: 10px;
+      overflow-y: auto; /* Enable vertical scrolling when necessary */
+
+  }
+  .slide-container3{
+    margin-top: 32%;
+      margin-left:10%;
+      width: 78%;
+      background-color: #FDF7F3;
+      height: 74vh;
+      border-radius: 10px;
+      overflow-y: auto; /* Enable vertical scrolling when necessary */
+
+  
+  }
+  .slide-container4{
+    margin-top: 32%;
+      margin-left:10%;
+      width: 78%;
+      background-color: #FDF7F3;
+      height: 74vh;
+      border-radius: 10px;
+      overflow-y: auto; /* Enable vertical scrolling when necessary */
+
+  
+  }
+  .slide-container5{
+    margin-top: 32%;
+      margin-left:10%;
+      width: 78%;
+      background-color: #FDF7F3;
+      height: 74vh;
+      border-radius: 10px;
+      overflow-y: auto; /* Enable vertical scrolling when necessary */
+
+  
+  }
+  .status-dropdown{
+      margin-left: 64%;
+      margin-top: -7%;
+  }
+  .status-dropdown5{
+      margin-left: 64%;
+    
+      margin-bottom: -3%;
+  } */
+  .input-container{
+    margin-bottom: 10px;
+
+}
+input{
+  height: 3vh;
+  border-radius: 10px;
+  border: none;
+  width: 52%;
+  margin-left: 5%;
+  padding-bottom: 3px;
+  padding-left: 3%;
+
+}
+
+.add{
+  margin-left: 55%;
+}
+.minus{
+  margin-left: -55%;
+}
+.next-button{
+  margin-left: 87%;
+  margin-top: -15%;
+  width: 10%;
+  height: 3vh;
+  border-radius: 5px;
+ background-color: #F8731B;
+ border: none;
+ color: white;
+}
+
+.previous-button{
+  margin-top: 6%;
+  width: 17%;
+  height: 3vh;
+  border-radius: 5px;
+ background-color: #F8731B;
+ border: none;
+ color: white;
+ margin-left: 5%;
+}
+.next-button1{
+  margin-left: 87%;
+  margin-top: 7%;
+  width: 10%;
+  height: 3vh;
+  border-radius: 5px;
+ background-color: #F8731B;
+ border: none;
+ color: white;
+}
+.force1-button{
+  background-color:#f8731b;
+  width: 50%;
+  height: 5vh;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  margin-left: 25%;
+  margin-top: 1%;
+
+}
+
+.force2-button{
+  background-color:gray;
+  width: 50%;
+  height: 5vh;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  margin-left: 25%;
+  margin-top: 1%;
+
+}
+.force3-button{
+  background-color:#f8731b;
+  width: 50%;
+  height: 5vh;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  margin-left: 25%;
+  margin-top: 1%;
+
+
+}
+.force4-button{
+  background-color:gray;
+  width: 50%;
+  height: 5vh;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  margin-left: 25%;
+  margin-top: 1%;
+
+
+
+}
+
+.force5-button{
+  background-color:#f8731b;
+  width: 50%;
+  height: 5vh;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  margin-left: 25%;
+  margin-top: 1%;
+
+
+}
+ 
+.force-content-container{
+  margin-left: 7%;
+   text-align: center;
+   height: 5vh;
+ }
+ 
+
+  }
